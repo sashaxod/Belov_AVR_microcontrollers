@@ -1,0 +1,190 @@
+@font-face {
+	font-family: 'Olga'; 
+	src: url(/fonts/font.ru_Olga.ttf); 
+}
+
+html{
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+}
+body{
+   font-family: 'Olga';
+}
+
+h2{
+   font-size: 38px;
+}
+
+h3{
+   font-size: 30px;
+   padding-top: 30px;
+   text-align: center;
+}
+
+h4 {
+   font-size: 24px;
+   text-align: center;
+}
+
+p{
+   font-size: 18px;
+   padding: 10px 0;
+   text-indent: 25px;
+}
+
+.no_indent {
+   text-indent: 0px;
+}
+
+ul {
+   list-style-type: none;
+   padding: 10px 0 10px 50px;
+   font-size: 18px;
+ }
+ 
+ li {
+   position: relative;
+ }
+ 
+ li::before {
+   content: '';
+   position: relative;
+   display: inline-block;
+   width: 6px;
+   height: 6px;
+   background-color: black;
+   margin-right: 10px;
+   transform: translate(0, -50%) scaleY(1.5) rotate(45deg);
+   margin-bottom: -2px;
+ }
+
+em{
+   font-family: 'Roboto', sans-serif;
+}
+
+hr{
+   border-top: 2px solid #000000;
+}
+
+figure {
+   background: #5f6a72; /* Цвет фона */
+   margin: 0 auto;
+   padding: 10px; /* Поля вокруг */
+   display: block; /* Блочный элемент */
+   width: 600px; /* Ширина */
+   text-align: center; /* Выравнивание по центру */
+}
+
+figcaption{
+   color: #fff;
+}
+
+figcaption span{
+   font-weight: bold;
+}
+
+table {
+   width: 100%;
+   border: 1px solid grey;
+}
+
+.table__title {
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: right;
+   padding: 5px;
+}
+
+th {
+   font-size: 18px;
+   border: 1px solid grey;
+   padding: 5px;
+}
+
+td {
+   border: 1px solid grey;
+   padding: 5px;
+}
+
+.first__column{
+   width: 20%;
+
+}
+
+.figure {
+   max-width: 550px;
+}
+
+.container{
+   background-color: darkgray;
+   text-align: justify;
+}
+
+.list{
+   max-width: 770px;
+   padding: 20px 40px;
+   margin: 20px auto;
+   background-color: #fff;
+}
+
+.logo-smail{
+   max-width: 300px;
+   max-height: 300px;
+}
+
+.cap{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 10px;
+   font-size: 17px;
+}
+
+.cap__title{
+   font-style: italic;
+}
+
+.cap__number{
+   font-weight: 900;
+}
+
+/* Блок текста это полезно знать */
+.title{
+   display: flex;
+   justify-content: space-between;
+}
+.title_icon-img img {
+   padding-top: 5px;
+   margin-left: 10px;
+   max-width: 50px;
+   max-height: 50px;
+}
+.attention {
+   padding-left: 20px;
+   font-family: 'Roboto', sans-serif;
+}
+.attention__title {
+   font-weight: bold;
+   font-size: 20px;
+}
+.attention__text {
+   padding-top: 2px;
+}
+
+/* Стили текста */
+.text_italics {
+   font-style: italic;
+   margin-top: 30px;
+   padding-left: 280px;
+}
+
+.font_bold {
+   font-weight: bold;
+}
