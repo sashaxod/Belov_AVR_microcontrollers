@@ -168,6 +168,12 @@ td {
    max-width: 50px;
    max-height: 50px;
 }
+
+.title_icon-pen {
+   margin-left: 10px;
+   max-width: 50px;
+   max-height: 150px;
+}
 .attention {
    padding-left: 20px;
    font-family: 'Roboto', sans-serif;
